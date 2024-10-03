@@ -6,14 +6,14 @@ import TheMenu from "~/components/TheMenu.vue";
   <div class="max-w-full h-screen flex flex-col overflow-hidden">
     <TheMenu />
     <div class="drawer md:drawer-open h-screen">
-      <input id="bear-launcher-app" type="checkbox" class="drawer-toggle" />
+      <input id="zephyr-launcher-app" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col items-center justify-center overflow-auto">
         <main class="container mx-auto">
           <slot />
         </main>
       </div>
       <div class="drawer-side fixed h-full">
-        <label for="bear-launcher-app" aria-label="close sidebar" class="drawer-overlay"></label>
+        <label for="zephyr-launcher-app" aria-label="close sidebar" class="drawer-overlay"></label>
         <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4">
           <li>
             <a>Dashboard</a>

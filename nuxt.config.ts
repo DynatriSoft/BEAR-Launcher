@@ -32,7 +32,7 @@ export default defineNuxtConfig({
     langDir: 'locales/',
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'bear_i18n_redirected',
+      cookieKey: 'zephyr_i18n_redirected',
       redirectOn: 'root'
     },
     locales: [

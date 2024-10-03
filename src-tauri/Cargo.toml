@@ -1,14 +1,14 @@
 [package]
-name = "bear-launcher"
+name = "zephyr-launcher"
 version = "0.1.0"
 description = "A Tauri App"
-authors = ["DynatriSoft", "André Nunes"]
+authors = ["DynatriSoft", "Zephyrus Foundation", "André Nunes"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "bear_launcher_lib"
+name = "zephyr_launcher_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]

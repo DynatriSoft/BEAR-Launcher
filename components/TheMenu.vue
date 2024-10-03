@@ -6,7 +6,7 @@
   <nav class="navbar bg-base-100">
     <div class="navbar-start">
       <a class="btn btn-ghost text-xl">
-        BEAR Engine
+        Zephyr Engine
       </a>
     </div>
     <div class="navbar-center hidden md:flex">
